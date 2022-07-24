@@ -7,7 +7,7 @@ public class Filesread
 {
 		  public static void main(String[] args) {
 		    try {
-		      File myObj = new File("History.txt");
+		      File myObj = new File("sample1.txt");
 		      if (myObj.createNewFile()) {
 		        System.out.println("File created: " + myObj.getName());
 		      } else {

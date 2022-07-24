@@ -7,8 +7,8 @@ public class Filewrite
 	  {
 	    try 
 	    {
-	      FileWriter myWriter = new FileWriter("History.txt");
-	      myWriter.write("Files in Java might be tricky, but it is fun enough!");
+	      FileWriter myWriter = new FileWriter("sample.txt");
+	      myWriter.write("Files can be written easily");
 	      myWriter.close();
 	      System.out.println("Successfully wrote to the file.");
 	    } 
